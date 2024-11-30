@@ -2,9 +2,11 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Portafolio de Gadiel Mateo Gonzalez Pamo, estudiante de Ciencia de la Computación.">
+    <meta name="author" content="Gadiel Mateo Gonzalez Pamo">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gadiel Mateo Gonzalez Pamo</title>
     <style>
-        
         * {
             margin: 0;
             padding: 0;
@@ -12,15 +14,13 @@
         }
         body {
             font-family: Arial, sans-serif;
-            background: linear-gradient(to bottom, #fdd5b1, #ffab76, #ff9e80); /* Fondo degradado cálido */
+            background: linear-gradient(to bottom, #fdd5b1, #ffab76, #ff9e80);
             color: #4e342e;
             display: flex;
             flex-direction: column;
             align-items: center;
             min-height: 100vh;
         }
-
-        
         header {
             width: 80%;
             background-color: #ff7043;
@@ -39,8 +39,6 @@
             margin-top: 0.5em;
             font-weight: normal;
         }
-
-        
         nav {
             background-color: #ff8a65;
             width: 60%;
@@ -58,8 +56,6 @@
         nav a:hover {
             text-decoration: underline;
         }
-
-        
         .container {
             display: flex;
             flex-wrap: wrap;
@@ -68,8 +64,6 @@
             padding: 2em 0;
             max-width: 1200px;
         }
-
-        
         section {
             background-color: #ffffff;
             border-radius: 10px;
@@ -77,7 +71,7 @@
             padding: 1.5em;
             flex: 1 1 300px;
             max-width: 350px;
-            text-align: justify; /* Texto justificado */
+            text-align: justify;
             margin-bottom: 1em;
             min-height: 250px;
         }
@@ -86,8 +80,20 @@
             font-size: 1.8em;
             margin-bottom: 0.5em;
         }
-
-        
+        section a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background-color: #ff7043;
+            color: white;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        section a:hover {
+            background-color: #d84315;
+        }
         footer {
             width: 100%;
             background-color: #4e342e;
@@ -100,69 +106,57 @@
     </style>
 </head>
 <body>
-
-
-<header>
-    <h1>Gadiel Mateo Gonzalez Pamo</h1>
-    <h2>Estudiante de la carrera de CCOMP</h2>
-</header>
-
-
-<div class="container">
-    <!-- Sección Sobre mí -->
-    <section>
-        <h2>Sobre mí</h2>
-        <p>Mi nombre es Gadiel Mateo Gonzalez Pamo, tengo 19 años, soy estudiante de la Universidad Católica San Pablo y curso la carrera de Ciencia de la Computación, actualmente estoy en el 3er semestre.</p>
-    </section>
-
-    
-    <section>
-        <h2>Carrera que curso</h2>
-        <p>Curso la carrera de Ciencia de la Computación (CCOMP), actualmente en el 3er semestre de carrera.</p>
-    </section>
-
-    
-    <section>
-        <h2>Cursos que hice</h2>
-        <p>Cursos que ya he completado:</p>
-        <ul>
-            <li>Matemática 1</li>
-            <li>Discretas 1</li>
-            <li>Comunicación</li>
-            <li>Programación de videojuegos</li>
-            <li>Introducción a la vida universitaria</li>
-            <li>Metodología del estudio</li>
-            <li>Filosofía</li>
-            <li>Persona y familia</li>
-        </ul>
-    </section>
-
-    
-    <section>
-        <h2>Proyectos Importantes</h2>
-        <p>A continuación, algunos de mis proyectos importantes realizados hasta ahora:</p>
-        <ul>
-            <li>Juego shooter en Python usando la librería Pygame.</li>
-        </ul>
-    </section>
-
-    
-    <section>
-        <h2>Compañeros de Grupo</h2>
-        <p>Enlaces a páginas web de compañeros:</p>
-        <ul>
-            <li><a href="https://fsm2005.github.io/fabricio-stelman-melo/" target="_blank">Fabricio Stelman Melo</a></li>
-            <li><a href="https://paginawebiair.web.app/" target="_blank">Iair Alejandro Suico Cornejo</a></li>
-            <li><a href="https://diegovillalobosa.github.io/" target="_blank">Diego Javier Villalobos Aroni</a></li>
-        </ul>
-    </section>
-</div>
-
-
-<footer>
-    &copy; 2024 Gadiel Mateo Gonzalez Pamo.
-</footer>
-
+    <header>
+        <h1>Gadiel Mateo Gonzalez Pamo</h1>
+        <h2>Estudiante de la carrera de CCOMP</h2>
+    </header>
+    <div class="container">
+        <section>
+            <h2>Sobre mí</h2>
+            <p>Mi nombre es Gadiel Mateo Gonzalez Pamo, tengo 19 años, soy estudiante de la Universidad Católica San Pablo y curso la carrera de Ciencia de la Computación, actualmente estoy en el 3er semestre.</p>
+        </section>
+        <section>
+            <h2>Carrera que curso</h2>
+            <p>Curso la carrera de Ciencia de la Computación (CCOMP), actualmente en el 3er semestre de carrera.</p>
+        </section>
+        <section>
+            <h2>Cursos que hice</h2>
+            <p>Cursos que ya he completado:</p>
+            <ul>
+                <li>Matemática 1</li>
+                <li>Discretas 1</li>
+                <li>Comunicación</li>
+                <li>Programación de videojuegos</li>
+                <li>Introducción a la vida universitaria</li>
+                <li>Metodología del estudio</li>
+                <li>Filosofía</li>
+                <li>Persona y familia</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Proyectos Importantes</h2>
+            <p>A continuación, algunos de mis proyectos importantes realizados hasta ahora:</p>
+            <ul>
+                <li>Juego shooter en Python usando la librería Pygame.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Compañeros de Grupo</h2>
+            <p>Enlaces a páginas web de compañeros:</p>
+            <ul>
+                <li><a href="https://fsm2005.github.io/fabricio-stelman-melo/" target="_blank">Fabricio Stelman Melo</a></li>
+                <li><a href="https://paginawebiair.web.app/" target="_blank">Iair Alejandro Suico Cornejo</a></li>
+                <li><a href="https://diegovillalobosa.github.io/" target="_blank">Diego Javier Villalobos Aroni</a></li>
+            </ul>
+        </section>
+        <section>
+            <h2>Profesor Ernesto:</h2>
+            <p>Pagina web del profesor Ernesto Cuadros Vargas:</p>
+            <a href="https://ecuadros.blogspot.com/" target="_blank">Ernesto Cuadros Vargas</a>
+        </section>
+    </div>
+    <footer>
+        &copy; 2024 Gadiel Mateo Gonzalez Pamo.
+    </footer>
 </body>
 </html>
-
